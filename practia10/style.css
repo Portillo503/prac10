@@ -1,0 +1,65 @@
+/*Estilo para el contenedor principal */
+.container {
+    max-width: 600px; /*Ancho máximo del contenedor */
+    margin: 0 auto; /*Centrar el contenedor de la págima */
+    padding: 20px; /*Espaciado interno del contenedor */
+}
+
+/*Estilo para el primer párrafo */
+.textoUno {
+    font-size: 18px; /*Tamaño de fuente */
+    font-weight: bold; /*Texto en negrita */
+    color: #f0652e
+}
+ 
+/*Estilo para el segundo párrafo */
+.texto {
+    font-size: 16px; /*Tamaño de fuente */
+    color: #c240ce; 
+}
+
+/*Estilo para el contenido dentro del div */
+.contenido {
+    background-color: #00ff62; /*Color de fondo */
+    color: #fff; /*Espacio interno */
+    padding: 10px; /*espaciado interno */
+    font-weight: bold; /*Texto en negrita */
+}
+ /*Estilo para el div con borde */
+ .border-contenido {
+    background-color: #ffee00;
+    color: #0f0c0c;
+    font-weight: bold; /*Texto en negrita */
+    border: rgb(17, 17, 17) 1px solid;
+ }
+
+ /*Estilo para la tabla principal */
+ .tabla-principal  {
+    width: 100%; /*Ancho de la tabla al 100% de contenedor */
+    border-collapse: collapse; /*Combinar bordes de celda */
+ }
+ /*Estilo para las celdas de encabezado */
+ .tabla-principal th {
+    background-color: #0a4044; /*Color del fondo del encabezado*/
+    color: #fff; /*Color del texto en el encabezado */
+    text-align: center;
+    font-weight: bold; /*Texto en negrita */
+    padding: 10px; /*Espaciado interno*/
+    border: rgb(17, 17, 17);
+ }
+ /*Estilo para la celda de datos*/
+ .tabla-principal td {
+    text-align: center;
+    padding: 5px;
+    background-color: #b5eca7;
+    color: #1a1616;
+    border: rgb(17, 17, 17);
+ }
+/*Estilo para el boton */
+.boton {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;/*Cambio de cursor al pasar por encima*/
+}
